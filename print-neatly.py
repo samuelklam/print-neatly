@@ -77,7 +77,6 @@ class Print_Neatly(object):
 
         return minpenalty, pointer_list
 
-
     def reconstruct_lines(self, text, j, break_points):
         i = break_points[j]
         line_num = 1
